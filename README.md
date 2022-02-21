@@ -1,33 +1,14 @@
 <p align="center">
-  <img alt="header image" src="https://raw.githubusercontent.com/caarlos0/dotfiles.fish/master/docs/header.svg" height="350" />
-  <h2 align="center">carlos' dotfiles</h2>
+  <img alt="header image" src="https://raw.githubusercontent.com/andrealbinop/dotfiles.fish/master/docs/header.svg" height="350" />
+  <h2 align="center">andrealbinop' dotfiles</h2>
   <p align="center">Config files for Fish, Go, Editors, Terminals and more.</p>
 </p>
 
 ---
 
-Forked from my [ZSH dotfiles](https://github.com/caarlos0/dotfiles), those are
+Forked from [caarlos0 Fish dotfiles](https://github.com/caarlos0/dotfiles.fish), those are
 my Fish Shell config files, together with editor, macOS configs and other
-goodies.
-
-The main reasons for the fork are:
-
-- a lot of things I have out of the box on Fish needed plugins on zsh
-- Fish autocompletion is awesome
-- Fish syntax is easier to use
-- Fish is more modern.
-
-This is an attempt to make the same things I had on my ZSH dotfiles on Fish.
-For the user, it should look pretty much the same, although under the hood
-there are a lot of changes.
-
-Config files are still topical, and even though aliases are not a thing on Fish,
-files are named like that still (and hold both functions and abbreviations).
-
-The auto-update feature was removed, as it was hacky on ZSH and I didn't want to
-do it. Instead, now the bootstrap script is better and can be run multiple times
-without any issues, so, to update, `git pull` and run the `bootstrap.fish`
-script.
+goodies. If you're interested in this dotfiles setup approach please fork from [caarlos0's official repo](https://github.com/caarlos0/dotfiles.fish), as I unshamely did and saved me a lot of time!
 
 ## Installation
 
@@ -46,7 +27,7 @@ First, make sure you have all those things installed:
 Then, run these steps:
 
 ```console
-$ git clone https://github.com/caarlos0/dotfiles.fish.git ~/.dotfiles
+$ git clone https://github.com/andrealbinop/dotfiles.fish.git ~/.dotfiles
 $ cd ~/.dotfiles
 $ ./script/bootstrap.fish
 ```
@@ -125,12 +106,3 @@ And logging out and in again or restart.
 
 Theme is **[Dracula](https://draculatheme.com)** and font is **Inconsolata**
 Nerd Font.
-
-## Screenshots
-
-![screenshot 1][scrn1]
-
-![screenshot 2][scrn2]
-
-[scrn1]: /docs/screenshot1.png
-[scrn2]: /docs/screenshot2.png
