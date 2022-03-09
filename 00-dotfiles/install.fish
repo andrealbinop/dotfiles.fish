@@ -8,6 +8,10 @@ set -Ux PROJECTS ~/Developer
 
 set -Ua fish_user_paths $DOTFILES/bin $HOME/.bin
 
+if not test -d $HOME/.bin
+	mkdir $HOME/.bin
+end
+
 for f in $DOTFILES/*/functions
 	set -Up fish_function_path $f
 end
