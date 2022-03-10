@@ -5,5 +5,7 @@ oh-my-fish/plugin-grc
 dracula/fish
 jorgebucaran/replay.fish
 joehillen/to-fish
-jorgebucaran/fisher
 rbenv/fish-rbenv
+FabioAntunes/fish-nvm
+edc/bass
+jorgebucaran/fisher
